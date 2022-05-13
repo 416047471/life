@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/study_target_objectId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+    <LinearLayout
+        android:id="@+id/targetAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/study_target_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="目标名"/>
+        <TextView
+            android:id="@+id/study_target_createdDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="2021-15-15 14:22:00"
+            android:layout_below="@id/targetThree"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/targetOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/targetAll">
+
+        <TextView
+            android:id="@+id/study_target_contentOne"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:text="终极目标"/>
+        <TextView
+            android:id="@+id/study_target_stateOne"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="进行中"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/targetTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/targetOne">
+
+        <TextView
+            android:id="@+id/study_target_contentTwo"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:text="次级目标"/>
+        <TextView
+            android:id="@+id/study_target_stateTwo"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="进行中"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/targetThree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/targetTwo">
+
+        <TextView
+            android:id="@+id/study_target_contentThree"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:text="终极目标"/>
+        <TextView
+            android:id="@+id/study_target_stateThree"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="进行中"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

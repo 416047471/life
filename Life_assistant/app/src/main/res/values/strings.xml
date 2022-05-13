@@ -1,0 +1,15 @@
+<resources>
+    <string name="title">聚合树</string>
+    <string name="suTitle">江天一色无纤尘，皎皎空中孤月轮。</string>
+    <string name="app_name">聚合树</string>
+    <string name="unitType">度量类型：长度</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--今日油价表格-->
+    <string name="oil_city">city</string>
+    <string name="oil_92h">92h</string>
+    <string name="oil_95h">95h</string>
+    <string name="oil_98h">98h</string>
+    <string name="oil_0h">0h</string>
+</resources>

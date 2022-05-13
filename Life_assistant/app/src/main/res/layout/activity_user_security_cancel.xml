@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".index.user.userSecurityCancelActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/userSecurityCancel_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/toolbarTheme"
+        app:navigationIcon="@drawable/left_key"
+        app:title="注销账户"
+        app:titleTextColor="@color/black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="确定注销用户后将不可恢复"
+        android:gravity="center"/>
+    
+    <EditText
+        android:id="@+id/userSecurityCancel_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:hint="请输入密码"/>
+    <Button
+        android:id="@+id/userSecurityCancel_cancelButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="注销"/>
+
+</LinearLayout>

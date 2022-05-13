@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageit"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:src="@drawable/nav_image"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/nav_userName"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:paddingLeft="30dp"
+        android:paddingBottom="30dp"
+        android:gravity="left|bottom"
+        android:text="用户名"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+</RelativeLayout>

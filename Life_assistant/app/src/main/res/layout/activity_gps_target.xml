@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="目标"
+        android:textSize="17sp"
+        android:gravity="center"/>
+
+    <Spinner
+        android:id="@+id/gps_target_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/gps_target_time"
+        android:textAlignment="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"/>
+    <Spinner
+        android:id="@+id/gps_target_distance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/gps_target_distance"
+        android:textAlignment="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/gps_target_timeButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="按时间开始"/>
+        <Button
+            android:id="@+id/gps_target_distanceButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="按路程开始"/>
+    </LinearLayout>
+</LinearLayout>

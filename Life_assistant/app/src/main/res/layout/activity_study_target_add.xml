@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/study_target_addNewTargetTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="目标标题"/>
+    <EditText
+        android:id="@+id/study_target_addNewTargetContentOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="最终目标"
+        android:layout_below="@id/study_target_addNewTargetTitle"/>
+    <EditText
+        android:id="@+id/study_target_addNewTargetContentTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="中级目标"
+        android:layout_below="@id/study_target_addNewTargetContentOne"/>
+    <EditText
+        android:id="@+id/study_target_addNewTargetContentThree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="初级目标"
+        android:layout_below="@id/study_target_addNewTargetContentTwo"/>
+    <Button
+        android:id="@+id/study_target_addNewTargetButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="增加"
+        android:layout_below="@id/study_target_addNewTargetContentThree"/>
+</RelativeLayout>

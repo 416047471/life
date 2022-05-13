@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="toolbarTheme" format="color"/>
+    <attr name="textTheme" format="color"/>
+    <attr name="navigationTheme" format="color"/>
+</resources>

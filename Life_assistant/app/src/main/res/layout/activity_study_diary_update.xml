@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/study_diary_updateObjectId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+    <TextView
+        android:id="@+id/study_diary_updateTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/study_diary_updateContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="日记内容"
+        android:layout_below="@+id/study_diary_updateTitle"/>
+    <Button
+        android:id="@+id/study_diary_updateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/study_diary_updateContent"
+        android:text="修改"/>
+</RelativeLayout>

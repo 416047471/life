@@ -1,0 +1,59 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+
+
+    </style>
+
+    <style name="AppTheme.Main" parent="AppTheme"/>
+
+    <style name="greenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--自定义主题样式-->
+        <item name="toolbarTheme">@color/green</item>
+        <item name="textTheme">@color/white</item>
+        <item name="navigationTheme">@color/navigationWhite</item>
+    </style>
+    <style name="yellowTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--自定义主题样式-->
+        <item name="toolbarTheme">@color/yellow</item>
+        <item name="textTheme">@color/white</item>
+        <item name="navigationTheme">@color/navigationWhite</item>
+    </style>
+    <style name="purpleTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--自定义主题样式-->
+        <item name="toolbarTheme">@color/purple</item>
+        <item name="textTheme">@color/white</item>
+        <item name="navigationTheme">@color/navigationWhite</item>
+    </style>
+    <style name="blueTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--自定义主题样式-->
+        <item name="toolbarTheme">@color/blue</item>
+        <item name="textTheme">@color/white</item>
+        <item name="navigationTheme">@color/navigationWhite</item>
+    </style>
+    <style name="pinkTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--自定义主题样式-->
+        <item name="toolbarTheme">@color/pink</item>
+        <item name="textTheme">@color/white</item>
+        <item name="navigationTheme">@color/navigationWhite</item>
+    </style>
+    <style name="blackTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--自定义主题样式-->
+        <item name="toolbarTheme">@color/black</item>
+        <item name="textTheme">@color/white</item>
+        <item name="navigationTheme">@color/navigationWhite</item>
+    </style>
+    <style name="whiteTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--自定义主题样式-->
+        <item name="toolbarTheme">@color/white</item>
+        <item name="textTheme">@color/white</item>
+        <item name="navigationTheme">@color/navigationWhite</item>
+    </style>
+
+
+</resources>

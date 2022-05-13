@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login_back">
+    <EditText
+        android:id="@+id/study_diary_addNewDiaryTitle"
+        android:drawableLeft="@drawable/log_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="新日记标题" />
+
+    <EditText
+        android:id="@+id/study_diary_addNewDiaryContent"
+        android:drawableLeft="@drawable/log_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="新日记内容"/>
+
+    <Button
+        android:id="@+id/study_diary_addNewDiaryButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加新日记"/>
+</LinearLayout>

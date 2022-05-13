@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--单位换算的下拉列表框-->
+    <string-array name="unitAll">
+        <item>度量类型：长度</item>
+        <item>度量类型：面积</item>
+        <item>度量类型：体积</item>
+        <item>度量类型：质量</item>
+        <item>度量类型：温度</item>
+        <item>度量类型：功率</item>
+        <item>度量类型：功/能/热</item>
+        <item>度量类型：密度</item>
+        <item>度量类型：力</item>
+        <item>度量类型：时间</item>
+        <item>度量类型：速度</item>
+        <item>度量类型：存储</item>
+        <item>度量类型：人民币</item>
+    </string-array>
+    <!--长度单位-->
+    <string-array name="length">
+        <item>千米(km)</item><item>米(m)</item><item>分米(dm)</item>
+        <item>厘米(cm)</item><item>毫米(mm)</item><item>微米(μm)</item>
+        <item>纳米(nm)</item><item>皮米(pm)</item><item>光年(ly)</item>
+        <item>天文单位(AU)</item>
+        <item>码</item><item>英尺(ft)</item><item>英寸(in)</item>
+        <item>海里(nmi)</item><item>英里(mi)</item><item>弗隆(fur)</item>
+        <item>英寻(fm)</item><item>密尔(mil)</item>
+        <item>里</item><item>丈</item><item>尺</item>
+        <item>寸</item><item>分</item><item>厘</item>
+        <item>毫</item>
+    </string-array>
+
+    <string-array name="study_model_time">
+        <item>05:00</item><item>10:00</item>
+        <item>15:00</item><item>20:00</item><item>25:00</item>
+        <item>30:00</item><item>35:00</item><item>40:00</item>
+        <item>45:00</item><item>50:00</item><item>55:00</item>
+        <item>60:00</item><item>65:00</item><item>70:00</item>
+    </string-array>
+
+    <string-array name="gps_target_time">
+        <item>05:00</item><item>10:00</item>
+        <item>15:00</item><item>20:00</item><item>25:00</item>
+        <item>30:00</item><item>35:00</item><item>40:00</item>
+        <item>45:00</item><item>50:00</item><item>55:00</item>
+        <item>60:00</item><item>65:00</item><item>70:00</item>
+    </string-array>
+
+    <string-array name="gps_target_distance">
+        <item>1(公里)</item><item>2(公里)</item>
+        <item>3(公里)</item><item>4(公里)</item><item>5(公里)</item>
+        <item>6(公里)</item><item>7(公里)</item><item>8(公里)</item>
+        <item>9(公里)</item><item>10(公里)</item><item>15(公里)</item>
+        <item>20(公里)</item><item>25(公里)</item><item>30(公里)</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/groupOne">
+        <item android:id="@+id/nav_myUser"
+            android:title="我的账户"
+            android:icon="@drawable/nav_myuser"/>
+    </group>
+    <group android:id="@+id/groupTwo">
+        <item android:id="@+id/nav_myWallet"
+            android:title="个人钱包"
+            android:icon="@drawable/mywallet"/>
+        <item android:id="@+id/nav_style"
+            android:title="主题管理"
+            android:icon="@drawable/style"/>
+    </group>
+    <group android:id="@+id/groupThree">
+        <item android:id="@+id/nav_securityCenter"
+            android:title="安全中心"
+            android:icon="@drawable/securitycenter"/>
+        <item android:id="@+id/nav_logOut"
+            android:title="退出登录"
+            android:icon="@drawable/log_out"/>
+    </group>
+</menu>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/regist_background"
+    tools:context=".login.RegistActivity">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/user_registReturn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:navigationIcon="@drawable/left_key"
+            app:title="注册"
+            app:titleTextColor="@color/black" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome"
+            android:textSize="27sp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="30dp"
+            android:gravity="left"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="一水堂，一个多功能的工具"
+            android:textSize="13sp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="40dp"
+            android:layout_marginLeft="30dp"
+            android:gravity="left"/>
+
+        <EditText
+            android:id="@+id/user_registPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/round_edittext"
+            android:inputType="phone"
+            android:hint="手机号码"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:id="@+id/user_registPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/round_edittext"
+            android:inputType="textPassword"
+            android:hint="密码"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:id="@+id/user_registPasswordAgain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/round_edittext"
+            android:inputType="textPassword"
+            android:hint="确认密码"
+            android:textSize="15sp"/>
+
+        <com.luozm.captcha.Captcha
+            android:id="@+id/captcha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            app:mode="mode_bar"
+            app:src="@drawable/captcha"/>
+
+        <Button
+            android:id="@+id/user_regist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/round_login_button"
+            android:text="注册"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/protocol_checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:text="阅读并同意《用户注册服务协议》"
+        android:textSize="12sp"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

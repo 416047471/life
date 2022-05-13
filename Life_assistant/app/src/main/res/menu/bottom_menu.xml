@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/bottom_0"
+        android:title="学习"
+        android:icon="@drawable/seleced_menu_learn" ></item>
+    <item android:id="@+id/bottom_1"
+        android:title="工具组"
+        android:icon="@drawable/seleced_menu_drawable" ></item>
+    <item android:id="@+id/bottom_2"
+        android:title="GPS"
+        android:icon="@drawable/seleced_menu_gps" ></item>
+</menu>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".calculator.fontChange_Activity">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/toolbarTheme"
+        android:fitsSystemWindows="true">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:navigationIcon="@drawable/left_key"
+        app:title="简/繁/火星字体转换"
+        android:background="?attr/toolbarTheme"/>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <EditText
+        android:id="@+id/font_inputText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:hint="请输入要转换的文字"/>
+    <Button
+        android:id="@+id/font_simplifiedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="转换至简体"/>
+    <Button
+        android:id="@+id/font_unsimplifiedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="转换至繁体"/>
+    <Button
+        android:id="@+id/font_martianButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="转换至火星文"/>
+    <TextView
+        android:id="@+id/font_resultText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="转换成的文字"/>
+
+</LinearLayout>

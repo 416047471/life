@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/study_memorandum_objectId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+    <TextView
+        android:id="@+id/study_memorandum_createDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2021-70-50 21:46:00"/>
+    <TextView
+        android:id="@+id/study_memorandum_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/study_memorandum_createDate"
+        android:text="标题"/>
+    <TextView
+        android:id="@+id/study_memorandum_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/study_memorandum_title"
+        android:text="内容"/>
+</RelativeLayout>
